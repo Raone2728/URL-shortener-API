@@ -18,11 +18,11 @@ The API will be accessible at http://localhost:3000.
 
 - **Reqeust Body**: 
 {
-  "destinationUrl": "https://www.go0gle.com"
+  "destinationUrl": "https://www.example.com"
 }
 - **Response Body**: 
 {
-  "shortUrl": "www.sda.in/asdd"
+  "shortUrl": "www.ppa.in/abcdef"
 }
 
 
@@ -33,8 +33,8 @@ The API will be accessible at http://localhost:3000.
 
 - **Reqeust Body**: 
 {
-  "shortUrl": " "www.sda.in/asdd",
-  "destinationUrl": "https://www.go0gle.com"
+  "shortUrl": "www.ppa.in/abcdef",
+  "destinationUrl": "https://www.newexample.com"
 }
 
 - **Response Body**: 
@@ -49,8 +49,8 @@ The API will be accessible at http://localhost:3000.
 
 - **Reqeust Body**: 
 {
-  "shortUrl": "www.sda.in/asdd",
-  "destinationUrl": "https://www.google.com"
+  "shortUrl":  "www.ppa.in/abcdef",
+  "destinationUrl": "https://www.example.com"
 }
 
 ## Update Expiry
@@ -60,7 +60,7 @@ The API will be accessible at http://localhost:3000.
 
 - **Reqeust Body**: 
 {
-  "shortUrl": "www.sda.in/asdd",
+  "shortUrl": "www.ppa.in/abcdef",
   "daysToAdd": 7
 }
 
